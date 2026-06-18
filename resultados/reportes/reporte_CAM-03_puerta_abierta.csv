@@ -1,0 +1,21 @@
+tiempo,temperatura,derivada_centrada,derivada_adelante,estado,alerta,camara_id,camara_nombre,producto,ubicacion
+0,6.38,,-0.248,Inicializando,Cámara alcanzando temperatura objetivo,CAM-03,Cámara 3,Embutidos,Sector fiambres
+5,5.14,-0.215,-0.182,Inicializando,Cámara alcanzando temperatura objetivo,CAM-03,Cámara 3,Embutidos,Sector fiambres
+10,4.23,-0.141,-0.1,Inicializando,Cámara alcanzando temperatura objetivo,CAM-03,Cámara 3,Embutidos,Sector fiambres
+15,3.73,-0.094,-0.088,Inicializando,Cámara alcanzando temperatura objetivo,CAM-03,Cámara 3,Embutidos,Sector fiambres
+20,3.29,-0.063,-0.038,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+25,3.1,-0.057,-0.076,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+30,2.72,-0.051,-0.026,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+35,2.59,0.022,0.07,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+40,2.94,0.079,0.088,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+45,3.38,0.11,0.132,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+50,4.04,0.1,0.068,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+55,4.38,0.059,0.05,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+60,4.63,0.067,0.084,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+65,5.05,0.084,0.084,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+70,5.47,0.082,0.08,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+75,5.87,0.091,0.102,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+80,6.38,0.087,0.072,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+85,6.74,0.093,0.114,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+90,7.31,0.096,0.078,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres
+95,7.7,,,Alerta crítica,Temperatura por encima del límite permitido,CAM-03,Cámara 3,Embutidos,Sector fiambres

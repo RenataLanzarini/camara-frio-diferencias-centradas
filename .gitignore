@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Resultados generados por la aplicación
+resultados/graficos/*.png
+resultados/reportes/*.csv
+
+# Variables sensibles
+.env
+
+# VS Code
+.vscode/

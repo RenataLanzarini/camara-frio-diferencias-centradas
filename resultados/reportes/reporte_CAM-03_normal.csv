@@ -1,0 +1,21 @@
+tiempo,temperatura,derivada_centrada,derivada_adelante,estado,alerta,camara_id,camara_nombre,producto,ubicacion
+0,6.36,,-0.188,Inicializando,Cámara alcanzando temperatura objetivo,CAM-03,Cámara 3,Embutidos,Sector fiambres
+5,5.42,-0.182,-0.176,Inicializando,Cámara alcanzando temperatura objetivo,CAM-03,Cámara 3,Embutidos,Sector fiambres
+10,4.54,-0.137,-0.098,Inicializando,Cámara alcanzando temperatura objetivo,CAM-03,Cámara 3,Embutidos,Sector fiambres
+15,4.05,-0.1,-0.102,Inicializando,Cámara alcanzando temperatura objetivo,CAM-03,Cámara 3,Embutidos,Sector fiambres
+20,3.54,-0.104,-0.106,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+25,3.01,-0.084,-0.062,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+30,2.7,-0.056,-0.05,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+35,2.45,-0.039,-0.028,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+40,2.31,-0.016,-0.004,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+45,2.29,0.006,0.016,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+50,2.37,-0.005,-0.026,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+55,2.24,-0.031,-0.036,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+60,2.06,-0.014,0.008,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+65,2.1,0.008,0.008,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+70,2.14,0.011,0.014,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+75,2.21,0.004,-0.006,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+80,2.18,-0.01,-0.014,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+85,2.11,0.003,0.02,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+90,2.21,-0.005,-0.03,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres
+95,2.06,,,Estado normal,Funcionamiento normal,CAM-03,Cámara 3,Embutidos,Sector fiambres

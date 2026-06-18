@@ -1,0 +1,21 @@
+tiempo,temperatura,derivada_centrada,derivada_adelante,estado,alerta
+0,6.87,,-0.206,Inicializando,Cámara alcanzando temperatura objetivo
+5,5.84,-0.176,-0.146,Inicializando,Cámara alcanzando temperatura objetivo
+10,5.11,-0.121,-0.096,Inicializando,Cámara alcanzando temperatura objetivo
+15,4.63,-0.09,-0.084,Inicializando,Cámara alcanzando temperatura objetivo
+20,4.21,-0.028,0.028,Alerta crítica,Temperatura por encima del límite permitido
+25,4.35,0.027,0.026,Alerta crítica,Temperatura por encima del límite permitido
+30,4.48,0.045,0.064,Alerta crítica,Temperatura por encima del límite permitido
+35,4.8,0.049,0.034,Alerta crítica,Temperatura por encima del límite permitido
+40,4.97,0.053,0.072,Alerta crítica,Temperatura por encima del límite permitido
+45,5.33,0.075,0.078,Alerta crítica,Temperatura por encima del límite permitido
+50,5.72,0.055,0.032,Alerta crítica,Temperatura por encima del límite permitido
+55,5.88,0.032,0.032,Alerta crítica,Temperatura por encima del límite permitido
+60,6.04,0.023,0.014,Alerta crítica,Temperatura por encima del límite permitido
+65,6.11,0.013,0.012,Alerta crítica,Temperatura por encima del límite permitido
+70,6.17,0.033,0.054,Alerta crítica,Temperatura por encima del límite permitido
+75,6.44,0.041,0.028,Alerta crítica,Temperatura por encima del límite permitido
+80,6.58,0.041,0.054,Alerta crítica,Temperatura por encima del límite permitido
+85,6.85,0.05,0.046,Alerta crítica,Temperatura por encima del límite permitido
+90,7.08,0.038,0.03,Alerta crítica,Temperatura por encima del límite permitido
+95,7.23,,,Alerta crítica,Temperatura por encima del límite permitido

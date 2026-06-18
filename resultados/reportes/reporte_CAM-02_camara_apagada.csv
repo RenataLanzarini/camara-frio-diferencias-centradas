@@ -1,0 +1,21 @@
+tiempo,temperatura,derivada_centrada,derivada_adelante,estado,alerta,camara_id,camara_nombre,producto,ubicacion
+0,6.62,,-0.256,Inicializando,Cámara alcanzando temperatura objetivo,CAM-02,Cámara 2,Pollo,Sector aves
+5,5.34,-0.209,-0.162,Inicializando,Cámara alcanzando temperatura objetivo,CAM-02,Cámara 2,Pollo,Sector aves
+10,4.53,-0.145,-0.128,Inicializando,Cámara alcanzando temperatura objetivo,CAM-02,Cámara 2,Pollo,Sector aves
+15,3.89,-0.1,-0.072,Inicializando,Cámara alcanzando temperatura objetivo,CAM-02,Cámara 2,Pollo,Sector aves
+20,3.53,0.062,0.196,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+25,4.51,0.183,0.17,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+30,5.36,0.178,0.186,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+35,6.29,0.204,0.222,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+40,7.4,0.208,0.194,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+45,8.37,0.176,0.158,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+50,9.16,0.174,0.19,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+55,10.11,0.221,0.252,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+60,11.37,0.23,0.208,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+65,12.41,0.18,0.152,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+70,13.17,0.163,0.174,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+75,14.04,0.216,0.258,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+80,15.33,0.234,0.21,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+85,16.38,0.192,0.174,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+90,17.25,0.205,0.236,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves
+95,18.43,,,Alerta crítica,Temperatura por encima del límite permitido,CAM-02,Cámara 2,Pollo,Sector aves

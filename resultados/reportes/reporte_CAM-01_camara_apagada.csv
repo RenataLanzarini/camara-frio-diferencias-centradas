@@ -1,0 +1,21 @@
+tiempo,temperatura,derivada_centrada,derivada_adelante,estado,alerta,camara_id,camara_nombre,producto,ubicacion
+0,6.59,,-0.244,Inicializando,Cámara alcanzando temperatura objetivo,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+5,5.37,-0.208,-0.172,Inicializando,Cámara alcanzando temperatura objetivo,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+10,4.51,-0.159,-0.146,Inicializando,Cámara alcanzando temperatura objetivo,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+15,3.78,-0.109,-0.072,Inicializando,Cámara alcanzando temperatura objetivo,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+20,3.42,0.074,0.22,Estado normal,Funcionamiento normal,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+25,4.52,0.192,0.164,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+30,5.34,0.157,0.15,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+35,6.09,0.183,0.216,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+40,7.17,0.2,0.184,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+45,8.09,0.192,0.2,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+50,9.09,0.187,0.174,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+55,9.96,0.151,0.128,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+60,10.6,0.181,0.234,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+65,11.77,0.221,0.208,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+70,12.81,0.197,0.186,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+75,13.74,0.202,0.218,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+80,14.83,0.171,0.124,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+85,15.45,0.127,0.13,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+90,16.1,0.129,0.128,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas
+95,16.74,,,Alerta crítica,Temperatura por encima del límite permitido,CAM-01,Cámara 1,Carne vacuna,Sector carnes rojas

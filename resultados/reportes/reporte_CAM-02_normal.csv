@@ -1,0 +1,21 @@
+tiempo,temperatura,derivada_centrada,derivada_adelante,estado,alerta,camara_id,camara_nombre,producto,ubicacion
+0,6.46,,-0.23,Inicializando,Cámara alcanzando temperatura objetivo,CAM-02,Cámara 2,Pollo,Sector aves
+5,5.31,-0.186,-0.142,Inicializando,Cámara alcanzando temperatura objetivo,CAM-02,Cámara 2,Pollo,Sector aves
+10,4.6,-0.151,-0.16,Inicializando,Cámara alcanzando temperatura objetivo,CAM-02,Cámara 2,Pollo,Sector aves
+15,3.8,-0.111,-0.062,Inicializando,Cámara alcanzando temperatura objetivo,CAM-02,Cámara 2,Pollo,Sector aves
+20,3.49,-0.057,-0.052,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+25,3.23,-0.056,-0.06,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+30,2.93,-0.059,-0.058,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+35,2.64,-0.043,-0.028,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+40,2.5,-0.025,-0.022,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+45,2.39,-0.007,0.008,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+50,2.43,-0.012,-0.032,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+55,2.27,-0.037,-0.042,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+60,2.06,-0.03,-0.018,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+65,1.97,-0.016,-0.014,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+70,1.9,-0.001,0.012,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+75,1.96,0.003,-0.006,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+80,1.93,-0.004,-0.002,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+85,1.92,-0.008,-0.014,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+90,1.85,0.001,0.016,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves
+95,1.93,,,Estado normal,Funcionamiento normal,CAM-02,Cámara 2,Pollo,Sector aves

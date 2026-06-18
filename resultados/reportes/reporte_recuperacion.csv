@@ -1,0 +1,21 @@
+tiempo,temperatura,derivada_centrada,derivada_adelante,estado,alerta
+0,6.52,,-0.254,Inicializando,Cámara alcanzando temperatura objetivo
+5,5.25,-0.22,-0.186,Inicializando,Cámara alcanzando temperatura objetivo
+10,4.32,-0.162,-0.138,Inicializando,Cámara alcanzando temperatura objetivo
+15,3.63,-0.112,-0.086,Inicializando,Cámara alcanzando temperatura objetivo
+20,3.2,-0.063,-0.04,Estado normal,Funcionamiento normal
+25,3.0,0.03,0.1,Estado normal,Funcionamiento normal
+30,3.5,0.109,0.118,Estado normal,Funcionamiento normal
+35,4.09,0.127,0.136,Alerta crítica,Temperatura por encima del límite permitido
+40,4.77,0.128,0.12,Alerta crítica,Temperatura por encima del límite permitido
+45,5.37,0.114,0.108,Alerta crítica,Temperatura por encima del límite permitido
+50,5.91,0.114,0.12,Alerta crítica,Temperatura por encima del límite permitido
+55,6.51,-0.072,-0.264,Alerta crítica,Temperatura por encima del límite permitido
+60,5.19,-0.227,-0.19,Alerta crítica,Temperatura por encima del límite permitido
+65,4.24,-0.157,-0.124,Alerta crítica,Temperatura por encima del límite permitido
+70,3.62,-0.119,-0.114,Estado normal,Funcionamiento normal
+75,3.05,-0.099,-0.084,Estado normal,Funcionamiento normal
+80,2.63,-0.061,-0.038,Estado normal,Funcionamiento normal
+85,2.44,-0.035,-0.032,Estado normal,Funcionamiento normal
+90,2.28,-0.04,-0.048,Estado normal,Funcionamiento normal
+95,2.04,,,Estado normal,Funcionamiento normal

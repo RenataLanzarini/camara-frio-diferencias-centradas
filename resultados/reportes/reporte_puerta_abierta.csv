@@ -1,0 +1,21 @@
+tiempo,temperatura,derivada_centrada,derivada_adelante,estado,alerta
+0,6.6,,-0.224,Alerta crítica,Temperatura por encima del límite permitido
+5,5.48,-0.195,-0.166,Alerta crítica,Temperatura por encima del límite permitido
+10,4.65,-0.162,-0.158,Alerta crítica,Temperatura por encima del límite permitido
+15,3.86,-0.112,-0.066,Estado normal,Funcionamiento normal
+20,3.53,-0.062,-0.058,Estado normal,Funcionamiento normal
+25,3.24,-0.052,-0.046,Estado normal,Funcionamiento normal
+30,3.01,-0.055,-0.064,Estado normal,Funcionamiento normal
+35,2.69,0.022,0.108,Estado normal,Funcionamiento normal
+40,3.23,0.11,0.112,Estado normal,Funcionamiento normal
+45,3.79,0.104,0.096,Estado normal,Funcionamiento normal
+50,4.27,0.091,0.086,Alerta crítica,Temperatura por encima del límite permitido
+55,4.7,0.089,0.092,Alerta crítica,Temperatura por encima del límite permitido
+60,5.16,0.079,0.066,Alerta crítica,Temperatura por encima del límite permitido
+65,5.49,0.076,0.086,Alerta crítica,Temperatura por encima del límite permitido
+70,5.92,0.084,0.082,Alerta crítica,Temperatura por encima del límite permitido
+75,6.33,0.095,0.108,Alerta crítica,Temperatura por encima del límite permitido
+80,6.87,0.117,0.126,Alerta crítica,Temperatura por encima del límite permitido
+85,7.5,0.089,0.052,Alerta crítica,Temperatura por encima del límite permitido
+90,7.76,0.082,0.112,Alerta crítica,Temperatura por encima del límite permitido
+95,8.32,,,Alerta crítica,Temperatura por encima del límite permitido
