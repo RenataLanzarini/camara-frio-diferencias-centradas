@@ -16,15 +16,17 @@ def calcular_diferencias_centradas(
         if i == 0 or i == len(datos) - 1:
             derivadas.append(None)
         else:
-            temp_siguiente = datos.loc[i + 1, columna_temperatura]
-            temp_anterior = datos.loc[i - 1, columna_temperatura]
+            temp_siguiente = datos.iloc[i + 1][columna_temperatura]
+            temp_anterior = datos.iloc[i - 1][columna_temperatura]
 
-            tiempo_siguiente = datos.loc[i + 1, columna_tiempo]
-            tiempo_anterior = datos.loc[i - 1, columna_tiempo]
+            tiempo_siguiente = datos.iloc[i + 1][columna_tiempo]
+            tiempo_anterior = datos.iloc[i - 1][columna_tiempo]
+            intervalo = tiempo_siguiente - tiempo_anterior
 
-            derivada = (temp_siguiente - temp_anterior) / (
-                tiempo_siguiente - tiempo_anterior
-            )
+            if intervalo == 0:
+                raise ValueError("No se puede calcular la derivada con tiempos repetidos.")
+
+            derivada = (temp_siguiente - temp_anterior) / intervalo
 
             derivadas.append(round(derivada, 4))
 
@@ -50,15 +52,17 @@ def calcular_diferencias_adelante(
         if i == len(datos) - 1:
             derivadas.append(None)
         else:
-            temp_actual = datos.loc[i, columna_temperatura]
-            temp_siguiente = datos.loc[i + 1, columna_temperatura]
+            temp_actual = datos.iloc[i][columna_temperatura]
+            temp_siguiente = datos.iloc[i + 1][columna_temperatura]
 
-            tiempo_actual = datos.loc[i, columna_tiempo]
-            tiempo_siguiente = datos.loc[i + 1, columna_tiempo]
+            tiempo_actual = datos.iloc[i][columna_tiempo]
+            tiempo_siguiente = datos.iloc[i + 1][columna_tiempo]
+            intervalo = tiempo_siguiente - tiempo_actual
 
-            derivada = (temp_siguiente - temp_actual) / (
-                tiempo_siguiente - tiempo_actual
-            )
+            if intervalo == 0:
+                raise ValueError("No se puede calcular la derivada con tiempos repetidos.")
+
+            derivada = (temp_siguiente - temp_actual) / intervalo
 
             derivadas.append(round(derivada, 4))
 

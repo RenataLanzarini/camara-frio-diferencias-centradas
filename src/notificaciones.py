@@ -1,11 +1,33 @@
 import os
 import smtplib
 from email.message import EmailMessage
+from pathlib import Path
+
+
+def cargar_variables_entorno():
+    ruta_env = Path(__file__).resolve().parent.parent / ".env"
+
+    if not ruta_env.exists():
+        return
+
+    for linea in ruta_env.read_text(encoding="utf-8").splitlines():
+        linea = linea.strip()
+
+        if not linea or linea.startswith("#") or "=" not in linea:
+            continue
+
+        clave, valor = linea.split("=", 1)
+        os.environ.setdefault(clave.strip(), valor.strip())
 
 
 def enviar_email_alerta(asunto, mensaje, destinatarios=None):
+    cargar_variables_entorno()
+
     remitente = os.getenv("EMAIL_REMITENTE")
     password = os.getenv("EMAIL_PASSWORD")
+
+    if password:
+        password = password.replace(" ", "")
 
     if destinatarios is None:
         destino = os.getenv("EMAIL_DESTINO")

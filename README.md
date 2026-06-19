@@ -214,32 +214,47 @@ Posibles alertas:
 ```text
 camara-frio-diferencias-centradas
 
-├── app.py
-├── main.py
-├── README.md
-├── requirements.txt
-│
-├── datos/
-│   └── destinatarios.txt
-│
-├── informe/
-│   └── marco_teorico.md
-│
-├── resultados/
-│   ├── graficos/
-│   └── reportes/
-│
-├── src/
-│   ├── alertas.py
-│   ├── diferencias_centradas.py
-│   ├── graficos.py
-│   ├── lectura_datos.py
-│   ├── notificaciones.py
-│   └── sensor_simulado.py
-│
-└── static/
-    ├── copos.jpg
-    └── favicon.png
+|-- app.py
+|-- main.py
+|-- README.md
+|-- requirements.txt
+|
+|-- datos/
+|   |-- camaras.json
+|   |-- destinatarios.txt
+|
+|-- informe/
+|   |-- Lineamiento.md
+|   |-- informe_final.md
+|   |-- marco_teorico.md
+|
+|-- resultados/
+|   |-- graficos/
+|   |-- reportes/
+|
+|-- src/
+|   |-- alertas.py
+|   |-- diferencias_centradas.py
+|   |-- graficos.py
+|   |-- lectura_datos.py
+|   |-- notificaciones.py
+|   |-- sensor_simulado.py
+|
+|-- static/
+|   |-- 87-879949_copo-de-nieve-png-copo-de-nieve-png.png
+|   |-- copos.jpg
+|
+|-- tests/
+|   |-- test_camaras.py
+|   |-- test_diferencias.py
+|   |-- test_sensor_simulado.py
+|
+|-- wiki/
+|   |-- flujo_ejecucion_checklist.md
+|   |-- flujo_modificaciones_web.md
+|   |-- guion_defensa.md
+|   |-- resultados_por_escenario.md
+|   |-- validacion_metodo_numerico.md
 ```
 
 ---
@@ -258,6 +273,7 @@ source venv/bin/activate
 Windows:
 
 ```bash
+python -m venv venv
 venv\Scripts\activate
 ```
 
@@ -266,6 +282,42 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+# Pruebas
+
+El proyecto incluye pruebas básicas para validar el cálculo de Diferencias Centradas y Diferencias Hacia Adelante.
+
+Ejecutar:
+
+```bash
+python -m unittest discover -s tests
+```
+
+Estas pruebas verifican una serie lineal con derivada conocida, los extremos no calculables del método centrado y el rechazo de mediciones con tiempos repetidos.
+
+---
+
+# Reproducibilidad de Simulaciones
+
+Por defecto, las simulaciones incluyen variaciones aleatorias para representar ruido de sensores y condiciones variables.
+
+Para una demostración o defensa, se puede fijar una semilla y obtener resultados repetibles:
+
+```bash
+set SIMULACION_SEMILLA=defensa
+python app.py
+```
+
+En Linux:
+
+```bash
+export SIMULACION_SEMILLA=defensa
+python app.py
+```
+
+Si `SIMULACION_SEMILLA` no está definida, el sistema funciona en modo aleatorio normal.
 
 ---
 
@@ -287,14 +339,55 @@ http://127.0.0.1:5000
 
 # Uso del Sistema
 
-1. Agregar destinatarios de correo electrónico.
-2. Seleccionar una cámara.
-3. Elegir el modo de ejecución.
-4. Ejecutar el monitoreo.
-5. Analizar gráficos y resultados.
-6. Consultar el tablero general de cámaras.
-7. Generar reportes.
-8. Recibir alertas por correo electrónico.
+1. Agregar o eliminar cámaras desde la sección de administración.
+2. Cargar cada destinatario una sola vez y seleccionar qué cámaras le corresponden.
+3. Seleccionar una cámara.
+4. Elegir el modo de ejecución.
+5. Ejecutar el monitoreo.
+6. Analizar gráficos y resultados.
+7. Consultar el tablero general de cámaras.
+8. Abrir el detalle de una cámara sin perder la tabla general.
+9. Generar reportes y seleccionar desde un desplegable a qué mails cargados enviarlos.
+10. Recibir alertas por correo electrónico según la cámara afectada.
+
+---
+
+# Configuración de Cámaras y Notificaciones
+
+La aplicación permite administrar cámaras desde la interfaz web. Las cámaras se guardan de forma persistente en:
+
+```text
+datos/camaras.json
+```
+
+Cada cámara contiene:
+
+* ID.
+* Nombre.
+* Producto.
+* Ubicación.
+* Lista de destinatarios.
+
+Los correos se cargan una sola vez desde la interfaz. Para cada correo se seleccionan las cámaras que le corresponden mediante casillas de selección. Esto evita escribir varias veces el mismo mail y permite que una misma persona reciba alertas de una o varias cámaras.
+
+Para enviar correos reales, el sistema utiliza las siguientes variables de entorno:
+
+```text
+EMAIL_REMITENTE
+EMAIL_PASSWORD
+```
+
+`EMAIL_REMITENTE` corresponde a la cuenta desde la cual se enviarán las alertas y `EMAIL_PASSWORD` corresponde a la contraseña o clave de aplicación configurada para esa cuenta.
+
+Estas credenciales pueden guardarse en un archivo local `.env` en la raíz del proyecto. Ese archivo está ignorado por Git para evitar subir datos sensibles al repositorio.
+
+Si una cámara no tiene destinatarios asignados, o si faltan las credenciales de envío, el sistema no interrumpe la ejecución. En ese caso, muestra el resultado del monitoreo en pantalla y deja constancia de que no se pudo enviar el correo.
+
+Las notificaciones se intentan enviar cuando el monitoreo detecta advertencias, alertas críticas o emergencias. El envío se realiza a los destinatarios asociados a la cámara que generó el evento. En funcionamiento normal, el sistema muestra el estado en pantalla y no envía alertas innecesarias.
+
+Para reportes, la sección correspondiente permite desplegar los mails ya cargados y seleccionar manualmente cuáles recibirán el reporte generado.
+
+La interfaz está adaptada para PC y dispositivos móviles. En pantallas pequeñas, las tablas se desplazan horizontalmente y los formularios se acomodan en una sola columna.
 
 ---
 

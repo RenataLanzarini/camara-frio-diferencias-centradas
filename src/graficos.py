@@ -1,4 +1,11 @@
 import os
+import tempfile
+
+os.environ.setdefault(
+    "MPLCONFIGDIR",
+    os.path.join(tempfile.gettempdir(), "camara-frio-matplotlib"),
+)
+
 import matplotlib
 
 matplotlib.use("Agg")

@@ -68,7 +68,8 @@ def ejecutar_monitoreo(escenario):
     print("========================================")
     print(f"Escenario seleccionado: {escenario}\n")
 
-    datos = generar_lecturas_sensor(escenario=escenario)
+    semilla = os.getenv("SIMULACION_SEMILLA")
+    datos = generar_lecturas_sensor(escenario=escenario, semilla=semilla)
 
     datos = calcular_diferencias_centradas(datos)
     datos = calcular_diferencias_adelante(datos)

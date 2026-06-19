@@ -1,0 +1,27 @@
+[
+  {
+    "id": "CAM-01",
+    "nombre": "Cámara 1",
+    "producto": "Carne vacuna",
+    "ubicacion": "Sector carnes rojas",
+    "destinatarios": [
+      "renatalanzarini@gmail.com"
+    ]
+  },
+  {
+    "id": "CAM-02",
+    "nombre": "Cámara 2",
+    "producto": "Pollo",
+    "ubicacion": "Sector aves",
+    "destinatarios": [
+      "renatalanzarini@gmail.com"
+    ]
+  },
+  {
+    "id": "CAM-03",
+    "nombre": "Cámara 3",
+    "producto": "Embutidos",
+    "ubicacion": "Sector fiambres",
+    "destinatarios": []
+  }
+]
